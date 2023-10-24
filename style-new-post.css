@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.body-new-post{
+    background-image: url('backgound.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.form-new-post{
+    display: flex;
+    background-color: #000;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 5px;
+    min-height: 80vh;
+    min-width: 50vw;
+    margin-top: 3.5vh;
+}
+
+.form-new-post button{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #000;
+    color:#fff;
+}
+.form-new-post button:hover{
+color: #eb8c4d;
+}
+
+
+.form-new-post input{
+    height: 30px;  
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+}
+.title-new-post {
+    margin-top: 5px;
+}
+
+.form-new-post textarea{
+    height: 70vh;
+    margin-top: 10px;
+    resize: none;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container-control-panel {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    width: 100vw;
+    min-height: 25px;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.admin-panel{
+    display: flex;
+    color: #fff;
+    position: relative;
+}
+.admin-panel h6{
+    margin: 0;
+    padding-top: 3px;
+    color: #fff; 
+    font-size: 15px;
+    margin-left: 5px;  
+}
+
+.admin-panel a{
+    padding-top: 2px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.admin-panel a:hover{
+    color: #eb8c4d;
+}
+
+.button-auth{
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-left: 2px solid #fff;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+.button-auth:hover{
+    color: #eb8c4d;
+}
+
+.back{
+   
+    text-decoration: none;
+    color: #fff;
+    margin-left: 60.1vw;
+    margin-top: 0.5vh;
+}
+.back:hover{
+    color: #eb8c4d;
+}
