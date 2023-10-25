@@ -7,22 +7,27 @@
     <title>Новая статья</title>
 </head>
 <body>
-    <div class="body-new-post">
-        <div class="container-control-panel">
-            <div class="admin-panel">
-                <h6>Панель администратора:</h6>
-                <a href="./new-post.html">создать статью</a>
-                <a href="./users.html">пользователи</a>
+    
+        <div class="body-new-post">
+            <div class="container-control-panel">
+                <div class="admin-panel">
+                    <h6>Панель администратора:</h6>
+                    <a href="./new-post.html">создать статью</a>
+                    <a href="./users.html">пользователи</a>
+                </div>
+                <a href="/index.html" class="back">&#8656;</a>
+                <a href="/index.html" class="button-auth">Войти</a>
             </div>
-            <a href="/index.html" class="back">&#8656;</a>
-            <a href="/index.html" class="button-auth">Войти</a>
+            <div class="container-new-post">
+                <h1>Создание новой статьи</h1>
+                <form action="submit" class="form-new-post">
+                    <input type="text" placeholder="Загрузите пожалуйста url фото...">
+                    <input type="text" placeholder="Напишите пожалуйста название поста..." class="title-new-post">
+                    <textarea type="text" placeholder="Здесь будет контент вашего поста..."></textarea>
+                    <button type="submit">Опубликовать</button>
+                </form>
+            </div>
         </div>
-        <form action="submit" class="form-new-post">
-            <input type="text" placeholder="Загрузите пожалуйста url фото...">
-            <input type="text" placeholder="Напишите пожалуйста название поста..." class="title-new-post">
-            <textarea type="text" placeholder="Здесь будет контент вашего поста..."></textarea>
-            <button type="submit">Опубликовать</button>
-        </form>
-    </div>
+       
 </body>
 </html>
